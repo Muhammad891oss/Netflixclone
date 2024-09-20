@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+    <style>
+        .image-1{
+            filter:sepia(90%) blur(4px);
+        }
+
+        .image-2{
+            filter: brightness(120%) grayscale(90%) invert(1);
+        }
+
+        .image-3{
+            filter: contrast(100%) opacity(.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image-1" src="image1.jpg">
+        <img class="image-2" src="image2.jpg"> 
+        <img class="image-3" src="image3.jpg">
+    </div>
+</body>
+</html>
